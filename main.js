@@ -2,4 +2,13 @@ const subtrair = documente.querySelector("#subtrair")
 const somar = documente.querySelector("#somar")
 const braco = documente.querySelector("#braco")
 
-robotron.add
+robotron.addEventListener("click", (evento) => {
+    console.log(evento)
+})
+
+function dizOi(nome) {
+    console.log("Oi " + nome);
+    console.log("Bem vindo ao Robotron 2000");
+}
+
+dizOi("Jorge")
